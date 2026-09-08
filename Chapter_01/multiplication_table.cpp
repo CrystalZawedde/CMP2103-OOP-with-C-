@@ -4,22 +4,27 @@
 // 2 	 	4 		8
 // 3  	 	9 		27
 // 4 		16 		64
-
-import std;
+// Modifying this program to use loops and string formating
+# include <iostream>
+using namespace std;
 
 int main() {
-    // Print the header and each specific row directly
-    std::cout << "a\t" << "a^2\t" << "a^3\n";
-    std::cout << 1 << "\t" << 1 * 1 << "\t" << 1 * 1 * 1 << "\n";
-    std::cout << 2 << "\t" <<  2 * 2 << "\t" <<  2 * 2 * 2 << "\n";
-    std::cout << 3 << "\t" <<  3 * 3 << "\t" <<  3 * 3 * 3 << "\n";
-    std::cout << 4 << "\t" <<  4 * 4 << "\t" <<  4 * 4 * 4 << "\n";
-}
-
+   
+    cout << "a\t" << "a^2\t" << "a^3\n";
+    int a;
+    int a2;
+    int a3;
+    a = 1;
+    do {
+        a2 = a*a;
+        a3 = a*a*a;
+        cout <<a <<"\t" <<a2 <<"\t" <<a3 <<"\n";
+        a++;
+    } while (a<5);
+    return 0;
 // Try
-// Modify this program to use loops and string formating
 
-
+}
 // Compile std to be found by g++
 // g++-16 -std=c++23 -fmodules -fsearch-include-path -c bits/std.cc
 
