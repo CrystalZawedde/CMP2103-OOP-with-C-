@@ -13,3 +13,33 @@
 // Enter height in inches: 70
 // BMI is 20.95
 // Normal
+# include <iostream>
+using namespace std;
+
+int main(){
+    cout <<"Enter weight in pounds: ";
+    double weight;
+    cin >> weight;
+    cout <<"Enter height in inches: ";
+    double height;
+    cin >> height;
+    //changing weight to kg
+    weight = weight*0.45359237; 
+    //changing height to m
+    height = height*0.0254; 
+    double BMI = weight/height;
+    cout <<"BMI is " <<BMI;
+    if (BMI < 18.5){
+        cout <<"\nUnderweight";
+    }
+    else if (BMI >= 18.5 && BMI<24.9){
+        cout <<"\nNormal";
+    }
+    else if (BMI >= 25.0 && BMI<29.9){
+        cout <<"\nOverweight";
+    }
+    else if (BMI >30.0){
+        cout <<"\nObese";}
+    else {cout << "Enter a valid number.";}
+    return 0;
+}
