@@ -15,4 +15,4 @@ patterns: It must have between 13 and 16 digits, and the number must start with:
 1. Double every second digit from right to left. If doubling of a digit results in a
    two-digit number, add up the two digits to get a single-digit number.
 
-<img src="credit_card.png" />
+<img src="./credit_card.png" />
