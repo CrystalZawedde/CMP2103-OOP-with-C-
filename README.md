@@ -20,12 +20,9 @@ By the end of this course, you should be able to:
 - This is an introductory course to C++, and students are expected to study more advanced courses on the topic. The examples listed are not meant to hardcode your thinking; rather, they are intended to facilitate good thought processes as you learn to write better programs.
 
 ## Assignments
-Complete the following assignments:
-
-
 ### Documentation Requirement
 
-For each assignment, include a corresponding `.md` file that documents your solution.
+For every assignment, include a corresponding `.md` file that documents your solution.
 
 The `.md` file must explain:
 
@@ -35,18 +32,7 @@ The `.md` file must explain:
 
 ### Submission Structure
 
-Each assignment should therefore contain both the source code and its documentation:
-
-```text
-graduating_multiple_choice_questions/
-├── program.cpp
-└── README.md
-
-credit_card/
-├── program.cpp
-└── README.md
-```
-
+Each assignment should therefore contain both the source code and its documentation. Give the .md file name as the program filename e.g matrix.cpp and matrix.md
 Ensure that your code and documentation are committed and pushed to your solutions repository.
 
 ## AI Policy
