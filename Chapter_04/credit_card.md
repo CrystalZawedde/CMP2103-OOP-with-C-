@@ -16,7 +16,7 @@ consider the card number 4388576018402626):
 1. Double every second digit from right to left. If doubling of a digit results in a
    two-digit number, add up the two digits to get a single-digit number.
 
-![credit Card](./credit_card.png)
+![Credit Card](./credit_card.png)
 
 2. Now add all single-digit numbers from Step 1.
 3. Add all digits in the odd places from right to left in the card number.
