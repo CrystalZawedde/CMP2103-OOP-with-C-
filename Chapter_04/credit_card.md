@@ -29,25 +29,23 @@ Write a program that prompts the user to enter a credit card number as an intege
 Display whether the number is valid or invalid. Design your program to use the
 following functions:
 
-// Return true if the card number is valid
+Return true if the card number is valid
 bool isValid(long long number);
 
-// Get the result from Step 2
+Get the result from Step 2
 int sumOfDoubleEvenPlace(long long number);
 
-// Return this number if it is a single digit, otherwise, return
-// the sum of the two digits
+Return this number if it is a single digit, otherwise, return the sum of the two digits
 int getDigit(int number);
 
-// Return sum of odd place digits in number
+Return sum of odd place digits in number
 int sumOfOddPlace(long long number);
 
-// Return true if the digit d is a prefix for number
+Return true if the digit d is a prefix for number
 bool prefixMatched(long long number, int d);
 
-// Return the number of digits in d
+Return the number of digits in d
 int getSize(long long d);
 
-// Return the first k number of digits from number. If the
-// number of digits in number is less than k, return number.
+Return the first k number of digits from number. If the number of digits in number is less than k, return number.
 long long getPrefix(long long number, int k);
