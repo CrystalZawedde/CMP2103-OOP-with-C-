@@ -8,6 +8,7 @@ This tutorial introduces the fundamental concepts of Object-Oriented Programming
 ## Learning Objectives
 By the end of this course, you should be able to:
 
+- Understand fundamentals of Object Oriented Programming
 - Understand the fundamental programming concepts
 - Understand key useful techniques
 - Basic standard C++ facilities
