@@ -1,7 +1,7 @@
 The income tax rate for individuals in business depends on the income bracket in which the individual falls.
 Resident individuals enjoy a tax free annual income threshold of UGX. 2,820,000 per annum. The
 balance is taxed at 10%, 20% or 30% depending on the income bracket. Individuals who earn
-above UGX 120,000,000 pa pay an additional 10% on the income above 120m.\
+above UGX 120,000,000 pa pay an additional 10% on the income above 120m.
 
 ```
 +----------------------+------------------------------------------+-------------------------------------------+
@@ -24,8 +24,10 @@ You are to write a program to compute personal income tax. Your program should p
 the user to enter the residence status and taxable income and then compute the tax. Enter 0 for
 resident and 1 for non-resident.
 
+```
 Output
 (0-Resident, 1-Non-resident)
 Enter the residence status: 0
 Enter the taxable income: 4,000,000
-Tax is 118000.
+Tax is 118000
+```
