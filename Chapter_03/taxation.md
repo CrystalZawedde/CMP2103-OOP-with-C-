@@ -3,7 +3,7 @@ Resident individuals enjoy a tax free annual income threshold of UGX. 2,820,000 
 balance is taxed at 10%, 20% or 30% depending on the income bracket. Individuals who earn
 above UGX 120,000,000 pa pay an additional 10% on the income above 120m.\
 
-'''
+```
 +----------------------+------------------------------------------+-------------------------------------------+
 | CHARGEABLE INCOME, CY| RESIDENTS                                | NON-RESIDENTS                             |
 | (UGX Annual)         | RATE OF TAX                              | RATE OF TAX                               |
@@ -18,7 +18,7 @@ above UGX 120,000,000 pa pay an additional 10% on the income above 120m.\
 | Above 120,000,000    | [(CY - 4,920,000) x 30% + 300,000]       | [(CY - 4,920,000) x 30% + 582,000]        |
 |                      | + [(CY - 120,000,000) x 10%]             | + [(CY - 120,000,000) x 10%]              |
 +----------------------+------------------------------------------+-------------------------------------------+
-'''
+```
 
 You are to write a program to compute personal income tax. Your program should prompt
 the user to enter the residence status and taxable income and then compute the tax. Enter 0 for
