@@ -1,10 +1,33 @@
-// A dataframe is a structure that stores data in rows and columns. Forexample;
-// ind      ELE     COMP    BIO
-// 1        100     120     80
-// 2        130     140     90
-// 3        110     150     100
-// 4        100     105     95
+//This is part of a group asignment.
+//  I was assigned the part of calculating the percentage of the whole dataframe ocuppied by each of the rows 1,2,3.
 
-// Calculate the mean, sum and median for each row.
-// Display the final output in a table.
 
+# include <iostream>
+# include <vector>
+using namespace std;
+
+int main(){
+    vector<vector<double>> dataframe = {
+{ 100,     120,     80},
+{130,     140,     90},
+{110,     150,     100},
+{100,     105,     95}};
+double grand_total = 0;
+for (int rows = 0; rows < dataframe.size(); rows++){
+    for (int col = 0; col < dataframe[rows].size(); col++){
+        grand_total = grand_total + dataframe[rows][col];
+    
+    }
+}
+for (int col = 0; col < dataframe[0].size(); col++){
+ double col_total = 0;
+ double percentage;
+ for (int rows = 0; rows < dataframe.size(); rows++){
+        col_total = col_total + dataframe[rows][col]; 
+        
+        percentage = (col_total/grand_total)*100;
+        }
+        cout <<"Column " <<(col +1) <<" percentage = " <<percentage <<"%\n"; 
+    }         
+    return 0;
+}
